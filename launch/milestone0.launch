@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- launch the camera simulation -->
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+
+  <!-- run the computer vision -->
+  <node pkg="nord_img_closestpoint" type="average_closest_point.py" name="average_closest_point" />
+
+  <!-- run the control nodes -->
+  <node pkg="nord_motor_controller" type="nord_motor_controller" name="nord_motor_controller" />
+
+</launch>

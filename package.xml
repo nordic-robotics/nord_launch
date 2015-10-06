@@ -1,0 +1,24 @@
+<package>
+ <name>ras_lab1_launch</name>
+  <version>0.1.0</version>
+  <description>
+    Launch files for RAS lab1.
+  </description>
+  <license>MIT</license>
+
+  <url>https://github.com/Jinxit/nordic-robotics</url>
+
+  <maintainer email="bened@kth.se">Magnus Thor Benediktsson</maintainer>
+  <maintainer email="gsands@kth.se">Gustav Sandström</maintainer>
+  <maintainer email="tolundi@kth.se">Tobias Lundin</maintainer>
+  <maintainer email="lucasas@kth.se">Lucas Åström</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>nord_messages</run_depend>
+  <run_depend>nord_img_closestpoint</run_depend>
+  <run_depend>nord_motor_controller</run_depend>
+
+</package>
