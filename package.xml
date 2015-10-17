@@ -1,8 +1,8 @@
 <package>
- <name>ras_lab1_launch</name>
+ <name>nord_launch</name>
   <version>0.1.0</version>
   <description>
-    Launch files for RAS lab1.
+    Launch files for Nordic.
   </description>
   <license>MIT</license>
 
