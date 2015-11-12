@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- launch the camera simulation -->
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+  <node pkg="rosserial_python" type="serial_node.py" name="serial_node" arg="_port:=/dev/ttyACM0"/>
+
+  <node pkg="nord_motor_controller" type="nord_motor_controller" name="nord_motor_controller" />
+  <node pkg="nord_sensors" type="ir_sensors" name="ir_sensors" />
+  <node pkg="nord_control" type="nord_point_control" name="nord_point_control" />
+  <node pkg="nord_estimation" type="particle_filter" name="particle_filter" args="0.1 0.1 0.1 0.1 0.1 0.1 0.1 5 0.95 0.01 0.01 0.03 0.1 9 0.4 0.1 0.25 0.25 0.2 5000 nope"/>
+
+</launch>
