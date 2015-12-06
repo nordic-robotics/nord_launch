@@ -9,10 +9,6 @@
   <node pkg="nord_pointcloud" type="process" name="process" />
   <node pkg="nord_pointcloud" type="evenmorecleverwallremoval2" name="evenmorecleverwallremoval2" />
   <node pkg="nord_pointcloud" type="objectdetection" name="objectdetection" />
-  <node pkg="nord_pointcloud" type="flann" name="flann" />
-  <!-- <node pkg="nord_vision" type="ImageObjectFilter.py" name="ImageObjectFilter" /> -->
-  <!-- <node pkg="nord_vision" type="classification_server.py" name="classification_server" /> -->
-  <node pkg="nord_vision" type="evidence_server.py" name="evidence_server" />
   <node pkg="nord_motor_controller" type="nord_motor_controller" name="nord_motor_controller" />
   <node pkg="ras_espeak" type="espeak_node" name="espeak_node" />
   <!-- <node pkg="nord_imu" type="nord_imu" name="nord_imu" /> -->

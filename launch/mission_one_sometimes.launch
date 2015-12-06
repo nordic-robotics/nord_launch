@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="nord_estimation" type="particle_filter" name="particle_filter" />
+  <node pkg="nord_estimation" type="landmark_tracker" name="landmark_tracker" />
+  <node pkg="nord_estimation" type="debris_tracker" name="debris_tracker" />
+  <node pkg="nord_control" type="nord_point_control" name="nord_point_control" />
+  <node pkg="nord_vision" type="yalt.py" name="yalt" />
+  <node pkg="nord_houston" type="mission_one" name="mission_one" />
+
+</launch>
