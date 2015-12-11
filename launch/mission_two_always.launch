@@ -11,6 +11,8 @@
   <node pkg="nord_pointcloud" type="objectdetection" name="objectdetection" />
   <node pkg="nord_motor_controller" type="nord_motor_controller" name="nord_motor_controller" />
   <node pkg="ras_espeak" type="espeak_node" name="espeak_node" />
+  <node pkg="nord_planning" type="search_and_rescue" name="search_and_rescue" />
   <!-- <node pkg="nord_imu" type="nord_imu" name="nord_imu" /> -->
+  <node pkg="nord_vision" type="ImageObjectFilter.py" name="ImageObjectFilter" />
 
 </launch>

@@ -9,6 +9,7 @@
   <node pkg="nord_pointcloud" type="process" name="process" />
   <node pkg="nord_pointcloud" type="evenmorecleverwallremoval2" name="evenmorecleverwallremoval2" />
   <node pkg="nord_pointcloud" type="objectdetection" name="objectdetection" />
+  <node pkg="nord_pointcloud" type="debrisdetection" name="debrisdetection" />
   <node pkg="nord_pointcloud" type="flann" name="flann" />
   <node pkg="nord_vision" type="ImageObjectFilter.py" name="ImageObjectFilter" />
   <node pkg="nord_vision" type="classification_server.py" name="classification_server" />
